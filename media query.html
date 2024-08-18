@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        
+        *{
+            overflow-x: hidden;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .img1{
+            width: 200px;
+            height:200px;
+            display: none;
+          
+        }
+        .img2{
+            width: 200px;
+            height:200px;
+        } .img3{
+            width: 200px;
+            height:200px;
+        }
+
+        /* Responsive Query Method */
+        @media only screen and (max-width:540px){
+            .img1{
+                width: 100%;
+                height: 100%;
+                margin: 20px;
+                border: 4px solid  black;
+                border-radius: 50px;
+                display: block;
+            } 
+            .img2{
+                width: 100%;
+                height: 100%;
+                /* margin: 20px;
+                border: 4px solid  black;
+                border-radius: 50px;
+                display: block; */
+            }
+            .img3{
+                width: 100%;
+                height: 100%;
+                /* margin: 20px;
+                border: 4px solid  black;
+                border-radius: 50px;
+                display: block; */
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+
+        <img class="img1" src="archi1.jpeg" alt="">
+    </div>
+    <img class="img2" src="archi2.jpeg" alt="">
+    <img class="img3" src="archi3.jpg" alt="">
+    <h2>
+         Dicta, libero.
+    </h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odit neque nihil deserunt accusantium optio, provident dolor ipsa. Iusto, sit.
+    </p>
+</body>
+</html>
